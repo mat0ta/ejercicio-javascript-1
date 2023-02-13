@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback 2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta lang="es">
+
+</head>
+<body>
+    <h1>Ejercicio 1</h1>
+    <div id="ejercicio1"></div>
+    <h1>Ejercicio 2</h1>
+    <div id="ejercicio2"></div>
+    <h1>Ejercicio 3</h1>
+    <div id="ejercicio3"></div>
+    <h1>Ejercicio 4</h1>
+    <form action="POST">
+        Selecciona una fecha del calendario:
+        <input type="date" name="fecha" id="fecha">
+        <button type="button"  onclick="ejercicio_4()">Aceptar</button>
+    </form>
+    <div id="resultado" class="ejercicio4">Esperando input...</div>
+    <h1>Ejercicio 5</h1>
+    <form>
+        <input type="email" name="email" id="email" placeholder="Introduce un email">
+        <button type="button" onclick="ejercicio_5()">Comprobar</button>
+    </form>
+    <div id="resultadomail" class="ejercicio5">Esperando input...</div>
+</body>
+<style>
+    div{
+        margin-top: 20px;
+    }
+    [id^="ejercicio"]{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        font-family: monospace;
+    }
+    [class^="ejercicio"]{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        font-family: monospace;
+    }
+    .ejercicio4{
+        line-height: 25px;
+    }
+</style>
+<script src="./ejercicio1.js"></script>
+<script src="./ejercicio2.js"></script>
+<script src="./ejercicio3.js"></script>
+<script src="./ejercicio4.js"></script>
+<script src="./ejercicio5.js"></script>
+</html>
